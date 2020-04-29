@@ -1,0 +1,130 @@
+[
+  {
+    "menu_id": 1,
+    "menu_name": "报表结算",
+    "menu_icon": "",
+    "menu_url": "",
+    "children_list": [
+      {
+        "menu_id": 1.1,
+        "menu_name": "结算报表",
+        "menu_url": "settleReport",
+        "parent_menu_id": 1
+      },
+      {
+        "menu_id": 1.2,
+        "menu_name": "模板配置",
+        "menu_url": "templateConfig",
+        "parent_menu_id": 1
+      },
+      {
+        "menu_id": 1.2,
+        "menu_name": "冲销报表",
+        "menu_url": "writeOffReport",
+        "parent_menu_id": 1
+      },
+      {
+        "menu_id": 1.3,
+        "menu_name": "发票明细",
+        "menu_url": "invoiceDetails",
+        "parent_menu_id": 1
+      },
+      {
+        "menu_id": 1.4,
+        "menu_name": "暂估报表",
+        "menu_url": "estimateReport",
+        "parent_menu_id": 1
+      }
+    ]
+  },
+  {
+    "menu_id": 2,
+    "menu_name": "账务处理",
+    "menu_icon": "",
+    "menu_url": "",
+    "children_list": [
+      {
+        "menu_id": 2.1,
+        "menu_name": "出账任务",
+        "menu_url": "accountTask",
+        "parent_menu_id": 2
+      },
+      {
+        "menu_id": 2.2,
+        "menu_name": "结算周期",
+        "menu_url": "settleCycle",
+        "parent_menu_id": 2
+      },
+      {
+        "menu_id": 2.3,
+        "menu_name": "出账信息",
+        "menu_url": "accountInfo",
+        "parent_menu_id": 2
+      },
+      {
+        "menu_id": 2.4,
+        "menu_name": "结算出账",
+        "menu_url": "settleAccounts",
+        "parent_menu_id": 2
+      },
+      {
+        "menu_id": 2.5,
+        "menu_name": "程序参数",
+        "menu_url": "processParameters",
+        "parent_menu_id": 2
+      }
+    ]
+  },
+  {
+    "menu_id": 3,
+    "menu_name": "统计报表",
+    "menu_icon": "",
+    "menu_url": "",
+    "children_list": [
+      {
+        "menu_id": 3.1,
+        "menu_name": "短信彩信业务",
+        "menu_url": "smsBusiness",
+        "parent_menu_id": 3
+      },
+      {
+        "menu_id": 3.2,
+        "menu_name": "集团短信",
+        "menu_url": "groupSms",
+        "parent_menu_id": 3
+      },
+      {
+        "menu_id": 3.3,
+        "menu_name": "统计配置",
+        "menu_url": "statisticalConfiguration",
+        "parent_menu_id": 3
+      }
+    ]
+  },
+  {
+    "menu_id": 4,
+    "menu_name": "系统管理",
+    "menu_icon": "",
+    "menu_url": "",
+    "children_list": [
+      {
+        "menu_id": 4.1,
+        "menu_name": "用户管理",
+        "menu_url": "userManagement",
+        "parent_menu_id": 4
+      },
+      {
+        "menu_id": 4.2,
+        "menu_name": "组织管理",
+        "menu_url": "orgManagement",
+        "parent_menu_id": 4
+      },
+      {
+        "menu_id": 4.3,
+        "menu_name": "角色管理",
+        "menu_url": "roleManagement",
+        "parent_menu_id": 4
+      }
+    ]
+  }
+]
